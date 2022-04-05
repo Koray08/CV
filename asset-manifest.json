@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.1d80b857.chunk.css",
+    "main.js": "/cv/static/js/main.877585e9.chunk.js",
+    "main.js.map": "/cv/static/js/main.877585e9.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.2628ce4f.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.2628ce4f.js.map",
+    "static/js/2.71c6abce.chunk.js": "/cv/static/js/2.71c6abce.chunk.js",
+    "static/js/2.71c6abce.chunk.js.map": "/cv/static/js/2.71c6abce.chunk.js.map",
+    "static/js/3.72338855.chunk.js": "/cv/static/js/3.72338855.chunk.js",
+    "static/js/3.72338855.chunk.js.map": "/cv/static/js/3.72338855.chunk.js.map",
+    "index.html": "/cv/index.html",
+    "static/css/main.1d80b857.chunk.css.map": "/cv/static/css/main.1d80b857.chunk.css.map",
+    "static/js/2.71c6abce.chunk.js.LICENSE.txt": "/cv/static/js/2.71c6abce.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cv/static/media/NTR-Regular.96839eb7.ttf",
+    "static/media/levay.96124b44.png": "/cv/static/media/levay.96124b44.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2628ce4f.js",
+    "static/js/2.71c6abce.chunk.js",
+    "static/css/main.1d80b857.chunk.css",
+    "static/js/main.877585e9.chunk.js"
+  ]
+}
