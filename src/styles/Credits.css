@@ -1,0 +1,12 @@
+#credits {
+  padding-top: 60px;
+  scroll-snap-align: start;
+  padding-bottom: 1rem;
+}
+
+.ending-credits {
+  font-family: "NTR", sans-serif;
+  color: var(--slate);
+  text-align: center;
+  font-size: 16px;
+}

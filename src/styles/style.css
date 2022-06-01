@@ -1,0 +1,171 @@
+
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 100vh;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--background);
+    color: white;
+    width: 100vw;
+    font-family: -apple-system ,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.sidebar-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    top: 25rem;
+    right: 0;
+    bottom: 10px;
+    padding-right: 5px;
+    transform: translate(-4rem, 5rem);
+}
+
+.rs-sidenav-body {
+    right: 0;
+    top: 0;
+    display: inline-block;;
+}
+
+.sidebar-links a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: aquamarine;
+    justify-content: end;
+    font-size: 0.9rem;
+}
+
+.logos {
+    margin-top: 6rem;
+    position: absolute;
+    color: var(--aqua);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#experience {
+    height: 100vh;
+}
+
+#projects{
+    height: 99vh;
+}
+
+#fade-in-section{
+    height: 20vh;
+}
+
+.fa-caret-right{
+    color: aquamarine;
+}
+
+
+.logos a{
+    width: 40px;
+}
+
+.languages {
+    margin-left: 10px;
+    display: inline-block;
+    width: 300px;
+}
+
+.face {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face::before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    width: 75px;
+    height: 35px;
+    background-color: #b57700;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 0.5s;
+}
+
+.face:hover::before {
+    top: 90px;
+    width: 65px;
+    height: 15px;
+    background-color: #b57700;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 00px;
+    transition: 0.5s;
+}
+
+.eyes {
+    position: relative;
+    top: -20px;
+    display: flex;
+}
+
+.eyes .eye {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: block;
+    background: #fff;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.eyes .eye::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 13px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    background: #333;
+    border-radius: 50%;
+}
+
+#fade-in-section{
+    justify-content: center;
+}
+
