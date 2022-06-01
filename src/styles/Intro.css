@@ -35,6 +35,7 @@ canvas {
 
 .intro-title {
   font-size: 86px;
+  color: var( --lightest-slate);
 }
 
 .intro-name {
