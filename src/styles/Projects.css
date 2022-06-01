@@ -83,7 +83,11 @@
   }
 
   .project-container {
-    width: 80%;
+    width: 100%;
     margin-left: 3px;
+  }
+
+  .projects-grid {
+    grid-row-gap: 2.3rem;
   }
 }
